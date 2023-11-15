@@ -1,4 +1,4 @@
-# glfwFilesForVSCODE
+# GLFWFilesForVSCode
 Necessary include and lib files for GLFW and GLAD.
 
 Windows 64-bit and maybe 32-bit
