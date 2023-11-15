@@ -8,13 +8,13 @@
             "args": [
                 "-g",
                 "-std=c++17",
-                "-IC:\\Users\\L11X16W17\\Documents\\Filess\\include",
-                "-LC:\\Users\\L11X16W17\\Documents\\Filess\\lib",
-                "${workspaceFolder}\\src\\main.cpp",
-                "C:\\Users\\L11X16W17\\Documents\\Filess\\include\\glad.c",
+                "-I{Path to the include folder}",
+                "-L{Path to the lib folder}",
+                "${workspaceFolder}\\src\\*.cpp",
+                "{Path to}\\glad.c",
                 "-lglfw3dll",
                 "-o",
-                "${workspaceFolder}\\cutable.exe"
+                "${workspaceFolder}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
