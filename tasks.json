@@ -11,7 +11,7 @@
                 "-I{Path to the include folder}",
                 "-L{Path to the lib folder}",
                 "${workspaceFolder}\\src\\*.cpp",
-                "{Path to}\\glad.c",
+                "{Path to}\\include\\glad\\glad.c",
                 "-lglfw3dll",
                 "-o",
                 "${workspaceFolder}\\${fileBasenameNoExtension}.exe"
